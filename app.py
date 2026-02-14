@@ -31,7 +31,7 @@ with col1:
         st.balloons()
         st.snow()
         st.success("Yay! You just made my day! ❤️")
-        st.write("Ab jaldi se INSTAGRAM pr "YES" likh kr bhejo!! 📱")
+        st.write("Ab jaldi se INSTAGRAM pr 'YES' likh kr bhejo!! 📱")
 
 with col2:
     if st.button('NO 😢'):
