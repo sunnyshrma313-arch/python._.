@@ -1,16 +1,17 @@
+
 import streamlit as st
 
 # Page configuration
 st.set_page_config(page_title="A Secret for You...", page_icon="💖")
 
-# --- 1. MUSIC SECTION (Golden Brown - New Link) ---
+# --- 1. MUSIC SECTION (I Wanna Be Yours - Arctic Monkeys) ---
 st.write("### 🎵 Press Play & Feel the Vibe...")
-# New link that usually allows embedding
-audio_url = "https://www.youtube.com/watch?v=v_B3qkp4nO4"
+# Stable YouTube link for 'I Wanna Be Yours'
+audio_url = "https://www.youtube.com/watch?v=rf7Gv0m2S-g"
 st.video(audio_url) 
 
 # --- 2. HEADER ---
-st.balloons() # FIXED: No number inside brackets!
+st.balloons() # FIXED: Brackets khali rakhein taaki error na aaye
 st.title("Hey! Just wanted to say something... ✨")
 st.markdown("---")
 
@@ -30,7 +31,7 @@ col1, col2 = st.columns(2)
 with col1:
     if st.button('YES! 😍 (Recommended)'):
         st.balloons() # FIXED
-        st.snow()     # FIXED: No number inside brackets!
+        st.snow()     # FIXED: Brackets khali rakhein
         st.success("Best decision ever! ❤️ Check your WhatsApp now!")
 
 with col2:
@@ -45,7 +46,7 @@ with st.expander("Click here to see 3 things I love about you:"):
     st.write("2. **Your Energy:** You make everything better just by being there.")
     st.write("3. **Your Taste:** Because you're reading this right now. 😉")
 
-# --- YOUR CUSTOM QUOTE & SIGNATURE ---
+# --- YOUR CUSTOM QUOTE & SIGNATURE (From your screenshot) ---
 st.write("wish I was one of your tears. SO, I could be born in your eyes... run down to your cheek. And die on your lips....... 🥺😭")
 
 st.markdown("PLEASE AB TO YES BOLDO YAAR DIMAG KHRAB HO GYA YE WEBSITE BANANE MAI ITNE EFFORTS LGAYE HAI AAPKE LIYE MUMMY KASAM KOI AI USE NAI HAI ISME AAP YES BOLDO MERA DIL KHUSH HO JAYEGA EK CHANCE DO AAP AAPKA DIL NAI TUTEGA")
