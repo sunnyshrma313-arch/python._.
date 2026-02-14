@@ -6,7 +6,7 @@ st.set_page_config(page_title="For Someone Special ❤️", page_icon="🌹")
 # --- MUSIC SECTION (Direct MP3 Link) ---
 st.write("🎵 **Listen to this while reading:**")
 # Golden Brown direct audio link
-audio_file = "https://www.soundboard.com/handler/DownLoadTrack.ashx?cliptoken=55227092-2391-4e45-8b17-062e49c7161b"
+audio_file = "https://youtu.be/AWAsI3U2EaE?si=tHDFlkghO1erMhI_"
 st.audio(audio_file)
 
 # --- HEADER ---
