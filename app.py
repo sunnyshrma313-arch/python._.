@@ -3,11 +3,11 @@ import streamlit as st
 # Page configuration
 st.set_page_config(page_title="A Secret for You...", page_icon="💖")
 
-# --- 1. THE PERFECT ROMANTIC VIBE (Cute Valentine Jukebox) ---
-st.write("### 🎵 Press Play & Feel the Love...")
-# Specially curated Valentine's jukebox for a cute vibe
-audio_url = "https://www.youtube.com/watch?v=Rdb5DnCTe9o" 
-st.video(audio_url) 
+# --- 1. INBUILT BACKGROUND MUSIC (Game Style) ---
+# Maine ek stable direct MP3 link dunda hai jo game music ki tarah chota dikhega
+st.write("### 🎵 Background Music (Press Play)")
+audio_link = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" # Sweet Instrumental
+st.audio(audio_link, format="audio/mp3")
 
 # --- 2. HEADER (Fixed) ---
 st.balloons() 
@@ -46,7 +46,7 @@ with st.expander("Click here to see 3 things I love about you:"):
     st.write("3. **Your Taste:** Because you're reading this right now. 😉")
 
 # --- YOUR CUSTOM QUOTE & SIGNATURE ---
-st.write("wish I was one of your tears. SO, I could be born in your eyes... run down to your cheek. And die on your lips....... 🥺😭")
+st.write("wish I was one of your tears. SO, I could be born in your eyes... run down to your cheek. And die on your lips....... 🥺😭😭")
 
-st.markdown("PLEASE AB TO YES BOLDO YAAR DIMAG KHRAB HO GYA YE WEBSITE BANANE MAI ITNE EFFORTS LGAYE HAI AAPKE LIYE MUMMY KASAM KOI AI USE NAI HAI ISME AAP YES BOLDO MERA DIL KHUSH HO JAYEGA EK CHANCE DO AAP AAPKA DIL NAI TUTEGA I JUST WANT A CHANCE MEREKO CHANCE DO LOYAL RHUNGA AAPKE LIYE😭😭🙏🏻")
+st.markdown("PLEASE AB TO YES BOLDO YAAR DIMAG KHRAB HO GYA YE WEBSITE BANANE MAI ITNE EFFORTS LGAYE HAI AAPKE LIYE MUMMY KASAM KOI AI USE NAI HAI ISME AAP YES BOLDO MERA DIL KHUSH HO JAYEGA EK CHANCE DO AAP AAPKA DIL NAI TUTEGA I JUST WANT A CHANCE MEREKO CHANCE DO LOYAL RHUNGA AAPKE LIYE 😭😭🙏🏻")
 st.write("Handcrafted with ❤️ and a lot of nerves aapki YES sunne k liye pagal AAPKA PYARA MASUM BACHA MANJOT 😊 .")
